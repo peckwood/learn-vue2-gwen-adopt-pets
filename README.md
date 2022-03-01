@@ -19,5 +19,5 @@ tutorial video link: https://youtu.be/4deVCNJq3qc
 
 1. clone the repository
 2. go inside the repository folder
-1. Run `npm i vue bootstrap bootstrap-vue`
+1. Run `npm i bootstrap bootstrap-vue`
 2. Run `npm run serve`
