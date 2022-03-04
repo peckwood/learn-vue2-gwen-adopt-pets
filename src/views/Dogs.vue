@@ -17,6 +17,7 @@ export default {
     return {
     }
   },
+  //https://stackoverflow.com/questions/53913483/vue-js-spread-syntax-with-vuex
   computed: {
     ...mapState([
       'dogs'
