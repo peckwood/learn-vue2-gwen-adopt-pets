@@ -69,3 +69,11 @@ content
 #### content
 
 - how to set up SAS inside of a project
+
+### 02:52:14
+
+#### content
+
+- pull table into its own component: PetTable
+
+### resources

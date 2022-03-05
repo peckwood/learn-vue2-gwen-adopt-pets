@@ -1,23 +1,21 @@
 <template>
   <div>
-    <h1>Dogs for adoption</h1>
-        <b-table striped hover :items="dogs">
-      <template #cell(name)="data">
-        <router-link :to="`/pets/dogs/${data.index}`">{{ data.value }}</router-link>
-      </template>
-    </b-table>
+    <PetTable species='dogs' :pets='dogs'/>
   </div>
 </template>
 
 <script>
 import { mapState } from 'vuex'
+import PetTable from '@/components/PetTable.vue'
 
 export default {
+  components: {
+    PetTable
+  },
   data () {
     return {
     }
   },
-  //https://stackoverflow.com/questions/53913483/vue-js-spread-syntax-with-vuex
   computed: {
     ...mapState([
       'dogs'
